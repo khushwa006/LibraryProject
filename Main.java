@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         // These credentials match your Railway setup
         // Added SSL and Public Key retrieval flags to help bypass connection blocks
-        String url = "jdbc:mysql://trolley.proxy.rlway.net:48755/railway?useSSL=false&allowPublicKeyRetrieval=true";
+        String url = "jdbc:mysql://trolley.proxy.rlway.net:48755/railway?useSSL=true&trustServerCertificate=true&allowPublicKeyRetrieval=true";
         String user = "root";
         String pass = "oImItElZhxmfuSzbctSyUVpebiWEHicg";
 
